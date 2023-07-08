@@ -133,6 +133,10 @@ header {
 /* Header End  */
 
 /* Main Section Start */
+main{
+    max-width: 1140;
+}
+
 /* About Section Start */
 .about{
     padding: 130px;
@@ -140,6 +144,27 @@ header {
     margin: 100px 230px;
     border-radius: 10px;
     
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about-info{
+    font-size: 20px;
+    margin-right: 50px;
+}
+.info-title{
+    color: #757575;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.info-desc{
+    font-weight: 700;
+    margin-top: 2px;
 }
 
 /* About Section END */
