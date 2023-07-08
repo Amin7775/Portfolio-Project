@@ -1,3 +1,4 @@
+/* Shared Styles */
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -13,6 +14,19 @@ body {
   border: 0;
 }
 
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-desc{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* Header Start */
 /* Nav styles Start*/
 nav {
@@ -41,7 +55,7 @@ nav > ul > li {
 
 nav > ul > li > a {
   text-decoration: none;
-  color:  #474747;
+  color: #474747;
   font-size: 20px;
   font-weight: 400;
 }
@@ -57,63 +71,77 @@ nav > ul > li > a {
 
 /* Nav style end */
 
-header{
-    background: #FFF8F3;
+header {
+  background: #fff8f3;
 }
 
-    /* Banner Start */
-.banner{
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    background-image: url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    justify-content: space-between;
+/* Banner Start */
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  justify-content: space-between;
 }
 
-.banner-title-1{
-    font-size: 45px;
-    font-weight: 600;
-    color:  #474747;
-    margin-bottom: 0px;
+.banner-title-1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 0px;
 }
 
-.banner-title-2{
-    font-size: 85px;
-    font-weight: 700;
-    color: #181818;
-    margin-top: 3px;
-    margin-bottom: 20px;
+.banner-title-2 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 3px;
+  margin-bottom: 20px;
 }
 
-.banner-description{
-    color: #757575;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 30px;
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 30px;
 }
 
-.button-download{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-    margin-top: 0px;
+.button-download {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 0px;
 }
 
-.button-contact{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fd6e0a;
-    background-color: #fff;
-    border: 1px solid #fd6e0a;
-    margin-left: 40px;
+.button-contact {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fd6e0a;
+  background-color: #fff;
+  border: 1px solid #fd6e0a;
+  margin-left: 40px;
 }
-    
-.profile-img{
-    width: 500px;
+
+.profile-img {
+  width: 500px;
 }
-    /* Banner End */
+/* Banner End */
 /* Header End  */
+
+/* Main Section Start */
+/* About Section Start */
+.about{
+    padding: 130px;
+    background: #fff8f3;
+    margin: 100px 230px;
+    border-radius: 10px;
+    
+}
+
+/* About Section END */
+
+/* Main Section END */
