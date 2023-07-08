@@ -135,6 +135,11 @@ header {
 /* Main Section Start */
 main{
     max-width: 1140;
+    text-align: center;
+}
+
+main section{
+    margin-top: 130px;
 }
 
 /* About Section Start */
@@ -168,5 +173,40 @@ main{
 }
 
 /* About Section END */
+
+/* What I Do Section Start */
+.what-i-do-desc{
+    padding:30px 350px;
+
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 250px;
+}
+
+.skill{
+    width: 300px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-desc{
+    font-size: 17px;
+    color:#757575;
+    font-weight: 400;
+    text-align: left;
+    width: 210px;
+    line-height: 28px;
+    
+}
+/* What I Do Section End */
+
 
 /* Main Section END */
