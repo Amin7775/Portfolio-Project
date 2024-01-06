@@ -135,7 +135,7 @@ header {
 /* Main Section Start */
 main{
     max-width: 1140;
-    text-align: center;
+    
 }
 
 main section{
@@ -207,6 +207,50 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     
 }
 /* What I Do Section End */
+/* Summary section start */
+.Summary{
+    padding: 0px 250px;
+    
+}
+
+.summary-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.summary-column{
+    
+    margin-left: 10px;
+    padding-right: 200px ;
+}
+
+.summary-column-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.summary-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.summary-item-institute{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.summary-item-description{
+    font-size: 16px;
+    color: #757575;
+    width: 500px;
+    line-height: 28px;
+}
+/* Summary section End */
+
 
 
 /* Main Section END */
